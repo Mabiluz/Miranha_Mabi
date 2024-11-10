@@ -1,0 +1,32 @@
+/*# sourceMappingURL=styles.css.map */
+
+body{
+    background-color:black;
+}
+
+header{
+    background-color: brown;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    h1{
+        color:white;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    
+            font-family: "Anton SC", serif;
+            font-weight: 700;
+            font-style: italic;
+    }
+}
+
+    
+
+.container-video{
+    justify-content: center;
+    display: flex;
+   transform: rotate(-90deg);
+   width: 100%;
+}
